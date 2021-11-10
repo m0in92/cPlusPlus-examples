@@ -375,6 +375,19 @@ getter_setter_example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/build
 .PHONY : getter_setter_example/fast
 
+#=============================================================================
+# Target rules for targets named inheritance_example
+
+# Build rule for target.
+inheritance_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 inheritance_example
+.PHONY : inheritance_example
+
+# fast build rule for target.
+inheritance_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inheritance_example.dir\build.make CMakeFiles/inheritance_example.dir/build
+.PHONY : inheritance_example/fast
+
 array.obj: array.cpp.obj
 .PHONY : array.obj
 
@@ -641,6 +654,33 @@ if_condition_example_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/if_condition_example_2.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_condition_example2.dir\build.make CMakeFiles/if_condition_example2.dir/if_condition_example_2.cpp.s
 .PHONY : if_condition_example_2.cpp.s
+
+inheritance_example.obj: inheritance_example.cpp.obj
+.PHONY : inheritance_example.obj
+
+# target to build an object file
+inheritance_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/inheritance_example.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inheritance_example.dir\build.make CMakeFiles/inheritance_example.dir/inheritance_example.cpp.obj
+.PHONY : inheritance_example.cpp.obj
+
+inheritance_example.i: inheritance_example.cpp.i
+.PHONY : inheritance_example.i
+
+# target to preprocess a source file
+inheritance_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/inheritance_example.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inheritance_example.dir\build.make CMakeFiles/inheritance_example.dir/inheritance_example.cpp.i
+.PHONY : inheritance_example.cpp.i
+
+inheritance_example.s: inheritance_example.cpp.s
+.PHONY : inheritance_example.s
+
+# target to generate assembly for a file
+inheritance_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/inheritance_example.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\inheritance_example.dir\build.make CMakeFiles/inheritance_example.dir/inheritance_example.cpp.s
+.PHONY : inheritance_example.cpp.s
 
 pointers_example.obj: pointers_example.cpp.obj
 .PHONY : pointers_example.obj
@@ -927,6 +967,7 @@ help:
 	@echo ... hello_world
 	@echo ... if_condition_example1
 	@echo ... if_condition_example2
+	@echo ... inheritance_example
 	@echo ... pointer_example
 	@echo ... print_triangle
 	@echo ... return_statement_example
@@ -967,6 +1008,9 @@ help:
 	@echo ... if_condition_example_2.obj
 	@echo ... if_condition_example_2.i
 	@echo ... if_condition_example_2.s
+	@echo ... inheritance_example.obj
+	@echo ... inheritance_example.i
+	@echo ... inheritance_example.s
 	@echo ... pointers_example.obj
 	@echo ... pointers_example.i
 	@echo ... pointers_example.s

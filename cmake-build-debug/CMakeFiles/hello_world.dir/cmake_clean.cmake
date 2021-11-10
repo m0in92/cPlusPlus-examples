@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/hello_world.dir/hello_world.cpp.obj"
   "CMakeFiles/hello_world.dir/if_condition_example1.cpp.obj"
   "CMakeFiles/hello_world.dir/if_condition_example_2.cpp.obj"
+  "CMakeFiles/hello_world.dir/inheritance_example.cpp.obj"
   "CMakeFiles/hello_world.dir/pointers_example.cpp.obj"
   "CMakeFiles/hello_world.dir/return_statement_example.cpp.obj"
   "CMakeFiles/hello_world.dir/switch_example.cpp.obj"

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Moin/CLionProjects/tutorial/hello_world.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/hello_world.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/if_condition_example1.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/if_condition_example1.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/if_condition_example_2.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/if_condition_example_2.cpp.obj"
+  "C:/Users/Moin/CLionProjects/tutorial/inheritance_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/inheritance_example.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/pointers_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/pointers_example.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/return_statement_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/return_statement_example.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/switch_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/switch_example.cpp.obj"
