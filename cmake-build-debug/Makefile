@@ -349,6 +349,32 @@ class_example/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example.dir\build.make CMakeFiles/class_example.dir/build
 .PHONY : class_example/fast
 
+#=============================================================================
+# Target rules for targets named class_example_2
+
+# Build rule for target.
+class_example_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class_example_2
+.PHONY : class_example_2
+
+# fast build rule for target.
+class_example_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/build
+.PHONY : class_example_2/fast
+
+#=============================================================================
+# Target rules for targets named getter_setter_example
+
+# Build rule for target.
+getter_setter_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 getter_setter_example
+.PHONY : getter_setter_example
+
+# fast build rule for target.
+getter_setter_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/build
+.PHONY : getter_setter_example/fast
+
 array.obj: array.cpp.obj
 .PHONY : array.obj
 
@@ -402,6 +428,33 @@ class_example.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/class_example.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example.dir\build.make CMakeFiles/class_example.dir/class_example.cpp.s
 .PHONY : class_example.cpp.s
+
+class_example_2.obj: class_example_2.cpp.obj
+.PHONY : class_example_2.obj
+
+# target to build an object file
+class_example_2.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/class_example_2.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/class_example_2.cpp.obj
+.PHONY : class_example_2.cpp.obj
+
+class_example_2.i: class_example_2.cpp.i
+.PHONY : class_example_2.i
+
+# target to preprocess a source file
+class_example_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/class_example_2.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/class_example_2.cpp.i
+.PHONY : class_example_2.cpp.i
+
+class_example_2.s: class_example_2.cpp.s
+.PHONY : class_example_2.s
+
+# target to generate assembly for a file
+class_example_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/class_example_2.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/class_example_2.cpp.s
+.PHONY : class_example_2.cpp.s
 
 data_type.obj: data_type.cpp.obj
 .PHONY : data_type.obj
@@ -483,6 +536,33 @@ function_example.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/function_example.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\function_example.dir\build.make CMakeFiles/function_example.dir/function_example.cpp.s
 .PHONY : function_example.cpp.s
+
+getter_setter_example.obj: getter_setter_example.cpp.obj
+.PHONY : getter_setter_example.obj
+
+# target to build an object file
+getter_setter_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/getter_setter_example.cpp.obj
+.PHONY : getter_setter_example.cpp.obj
+
+getter_setter_example.i: getter_setter_example.cpp.i
+.PHONY : getter_setter_example.i
+
+# target to preprocess a source file
+getter_setter_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/getter_setter_example.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/getter_setter_example.cpp.i
+.PHONY : getter_setter_example.cpp.i
+
+getter_setter_example.s: getter_setter_example.cpp.s
+.PHONY : getter_setter_example.s
+
+# target to generate assembly for a file
+getter_setter_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/getter_setter_example.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/getter_setter_example.cpp.s
+.PHONY : getter_setter_example.cpp.s
 
 hello_world.obj: hello_world.cpp.obj
 .PHONY : hello_world.obj
@@ -839,9 +919,11 @@ help:
 	@echo ... rebuild_cache
 	@echo ... array
 	@echo ... class_example
+	@echo ... class_example_2
 	@echo ... data_type
 	@echo ... for_loop_example
 	@echo ... function_example
+	@echo ... getter_setter_example
 	@echo ... hello_world
 	@echo ... if_condition_example1
 	@echo ... if_condition_example2
@@ -861,6 +943,9 @@ help:
 	@echo ... class_example.obj
 	@echo ... class_example.i
 	@echo ... class_example.s
+	@echo ... class_example_2.obj
+	@echo ... class_example_2.i
+	@echo ... class_example_2.s
 	@echo ... data_type.obj
 	@echo ... data_type.i
 	@echo ... data_type.s
@@ -870,6 +955,9 @@ help:
 	@echo ... function_example.obj
 	@echo ... function_example.i
 	@echo ... function_example.s
+	@echo ... getter_setter_example.obj
+	@echo ... getter_setter_example.i
+	@echo ... getter_setter_example.s
 	@echo ... hello_world.obj
 	@echo ... hello_world.i
 	@echo ... hello_world.s

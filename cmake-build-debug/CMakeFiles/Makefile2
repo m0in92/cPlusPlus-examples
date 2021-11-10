@@ -80,6 +80,8 @@ all: CMakeFiles/for_loop_example.dir/all
 all: CMakeFiles/two_dim_array.dir/all
 all: CMakeFiles/pointer_example.dir/all
 all: CMakeFiles/class_example.dir/all
+all: CMakeFiles/class_example_2.dir/all
+all: CMakeFiles/getter_setter_example.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -105,6 +107,8 @@ clean: CMakeFiles/for_loop_example.dir/clean
 clean: CMakeFiles/two_dim_array.dir/clean
 clean: CMakeFiles/pointer_example.dir/clean
 clean: CMakeFiles/class_example.dir/clean
+clean: CMakeFiles/class_example_2.dir/clean
+clean: CMakeFiles/getter_setter_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,7 +118,7 @@ clean: CMakeFiles/class_example.dir/clean
 CMakeFiles/print_triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\print_triangle.dir\build.make CMakeFiles/print_triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\print_triangle.dir\build.make CMakeFiles/print_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target print_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target print_triangle"
 .PHONY : CMakeFiles/print_triangle.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +144,7 @@ CMakeFiles/print_triangle.dir/clean:
 CMakeFiles/user_input.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\user_input.dir\build.make CMakeFiles/user_input.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\user_input.dir\build.make CMakeFiles/user_input.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target user_input"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target user_input"
 .PHONY : CMakeFiles/user_input.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +170,7 @@ CMakeFiles/user_input.dir/clean:
 CMakeFiles/return_statement_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\return_statement_example.dir\build.make CMakeFiles/return_statement_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\return_statement_example.dir\build.make CMakeFiles/return_statement_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target return_statement_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=43,44 "Built target return_statement_example"
 .PHONY : CMakeFiles/return_statement_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,12 +196,12 @@ CMakeFiles/return_statement_example.dir/clean:
 CMakeFiles/hello_world.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\hello_world.dir\build.make CMakeFiles/hello_world.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28 "Built target hello_world"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target hello_world"
 .PHONY : CMakeFiles/hello_world.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hello_world.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 20
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/hello_world.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/hello_world.dir/rule
@@ -218,7 +222,7 @@ CMakeFiles/hello_world.dir/clean:
 CMakeFiles/working_with_strings.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\working_with_strings.dir\build.make CMakeFiles/working_with_strings.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\working_with_strings.dir\build.make CMakeFiles/working_with_strings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target working_with_strings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target working_with_strings"
 .PHONY : CMakeFiles/working_with_strings.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +248,7 @@ CMakeFiles/working_with_strings.dir/clean:
 CMakeFiles/variables_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\variables_example.dir\build.make CMakeFiles/variables_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\variables_example.dir\build.make CMakeFiles/variables_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target variables_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=51,52 "Built target variables_example"
 .PHONY : CMakeFiles/variables_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +300,7 @@ CMakeFiles/array.dir/clean:
 CMakeFiles/data_type.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_type.dir\build.make CMakeFiles/data_type.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\data_type.dir\build.make CMakeFiles/data_type.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target data_type"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target data_type"
 .PHONY : CMakeFiles/data_type.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,7 +326,7 @@ CMakeFiles/data_type.dir/clean:
 CMakeFiles/working_with_numbers.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\working_with_numbers.dir\build.make CMakeFiles/working_with_numbers.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\working_with_numbers.dir\build.make CMakeFiles/working_with_numbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=49,50 "Built target working_with_numbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=55,56 "Built target working_with_numbers"
 .PHONY : CMakeFiles/working_with_numbers.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,7 +352,7 @@ CMakeFiles/working_with_numbers.dir/clean:
 CMakeFiles/function_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\function_example.dir\build.make CMakeFiles/function_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\function_example.dir\build.make CMakeFiles/function_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target function_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target function_example"
 .PHONY : CMakeFiles/function_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -374,7 +378,7 @@ CMakeFiles/function_example.dir/clean:
 CMakeFiles/while_loop_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_loop_example.dir\build.make CMakeFiles/while_loop_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_loop_example.dir\build.make CMakeFiles/while_loop_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target while_loop_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=53,54 "Built target while_loop_example"
 .PHONY : CMakeFiles/while_loop_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,7 +404,7 @@ CMakeFiles/while_loop_example.dir/clean:
 CMakeFiles/switch_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\switch_example.dir\build.make CMakeFiles/switch_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\switch_example.dir\build.make CMakeFiles/switch_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target switch_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=45,46 "Built target switch_example"
 .PHONY : CMakeFiles/switch_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -426,7 +430,7 @@ CMakeFiles/switch_example.dir/clean:
 CMakeFiles/if_condition_example1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_condition_example1.dir\build.make CMakeFiles/if_condition_example1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_condition_example1.dir\build.make CMakeFiles/if_condition_example1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target if_condition_example1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target if_condition_example1"
 .PHONY : CMakeFiles/if_condition_example1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -452,7 +456,7 @@ CMakeFiles/if_condition_example1.dir/clean:
 CMakeFiles/if_condition_example2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_condition_example2.dir\build.make CMakeFiles/if_condition_example2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_condition_example2.dir\build.make CMakeFiles/if_condition_example2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target if_condition_example2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target if_condition_example2"
 .PHONY : CMakeFiles/if_condition_example2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +482,7 @@ CMakeFiles/if_condition_example2.dir/clean:
 CMakeFiles/for_loop_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_loop_example.dir\build.make CMakeFiles/for_loop_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_loop_example.dir\build.make CMakeFiles/for_loop_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target for_loop_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target for_loop_example"
 .PHONY : CMakeFiles/for_loop_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +508,7 @@ CMakeFiles/for_loop_example.dir/clean:
 CMakeFiles/two_dim_array.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\two_dim_array.dir\build.make CMakeFiles/two_dim_array.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\two_dim_array.dir\build.make CMakeFiles/two_dim_array.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=41,42 "Built target two_dim_array"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=47,48 "Built target two_dim_array"
 .PHONY : CMakeFiles/two_dim_array.dir/all
 
 # Build rule for subdir invocation for target.
@@ -530,7 +534,7 @@ CMakeFiles/two_dim_array.dir/clean:
 CMakeFiles/pointer_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target pointer_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=39,40 "Built target pointer_example"
 .PHONY : CMakeFiles/pointer_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -574,6 +578,58 @@ class_example: CMakeFiles/class_example.dir/rule
 CMakeFiles/class_example.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example.dir\build.make CMakeFiles/class_example.dir/clean
 .PHONY : CMakeFiles/class_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/class_example_2.dir
+
+# All Build rule for target.
+CMakeFiles/class_example_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target class_example_2"
+.PHONY : CMakeFiles/class_example_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/class_example_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/class_example_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/class_example_2.dir/rule
+
+# Convenience name for target.
+class_example_2: CMakeFiles/class_example_2.dir/rule
+.PHONY : class_example_2
+
+# clean rule for target.
+CMakeFiles/class_example_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_2.dir\build.make CMakeFiles/class_example_2.dir/clean
+.PHONY : CMakeFiles/class_example_2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/getter_setter_example.dir
+
+# All Build rule for target.
+CMakeFiles/getter_setter_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target getter_setter_example"
+.PHONY : CMakeFiles/getter_setter_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/getter_setter_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/getter_setter_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/getter_setter_example.dir/rule
+
+# Convenience name for target.
+getter_setter_example: CMakeFiles/getter_setter_example.dir/rule
+.PHONY : getter_setter_example
+
+# clean rule for target.
+CMakeFiles/getter_setter_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\getter_setter_example.dir\build.make CMakeFiles/getter_setter_example.dir/clean
+.PHONY : CMakeFiles/getter_setter_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -10,9 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Moin/CLionProjects/tutorial/array.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/array.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/class_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/class_example.cpp.obj"
+  "C:/Users/Moin/CLionProjects/tutorial/class_example_2.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/class_example_2.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/data_type.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/data_type.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/for_loop_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/for_loop_example.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/function_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/function_example.cpp.obj"
+  "C:/Users/Moin/CLionProjects/tutorial/getter_setter_example.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/hello_world.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/hello_world.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/if_condition_example1.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/if_condition_example1.cpp.obj"
   "C:/Users/Moin/CLionProjects/tutorial/if_condition_example_2.cpp" "C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/hello_world.dir/if_condition_example_2.cpp.obj"

@@ -69,4 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/two_dim_array.dir/DependInfo.cmake"
   "CMakeFiles/pointer_example.dir/DependInfo.cmake"
   "CMakeFiles/class_example.dir/DependInfo.cmake"
+  "CMakeFiles/class_example_2.dir/DependInfo.cmake"
+  "CMakeFiles/getter_setter_example.dir/DependInfo.cmake"
   )

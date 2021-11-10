@@ -17,4 +17,6 @@ C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/for_loop_examp
 C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/two_dim_array.dir
 C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/pointer_example.dir
 C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/class_example.dir
+C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/class_example_2.dir
+C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/getter_setter_example.dir
 C:/Users/Moin/CLionProjects/tutorial/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -286,6 +286,32 @@ CMakeFiles/hello_world.dir/class_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/class_example.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\tutorial\class_example.cpp -o CMakeFiles\hello_world.dir\class_example.cpp.s
 
+CMakeFiles/hello_world.dir/class_example_2.cpp.obj: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/class_example_2.cpp.obj: ../class_example_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/hello_world.dir/class_example_2.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\hello_world.dir\class_example_2.cpp.obj -c C:\Users\Moin\CLionProjects\tutorial\class_example_2.cpp
+
+CMakeFiles/hello_world.dir/class_example_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/class_example_2.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Moin\CLionProjects\tutorial\class_example_2.cpp > CMakeFiles\hello_world.dir\class_example_2.cpp.i
+
+CMakeFiles/hello_world.dir/class_example_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/class_example_2.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\tutorial\class_example_2.cpp -o CMakeFiles\hello_world.dir\class_example_2.cpp.s
+
+CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj: CMakeFiles/hello_world.dir/flags.make
+CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj: ../getter_setter_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\hello_world.dir\getter_setter_example.cpp.obj -c C:\Users\Moin\CLionProjects\tutorial\getter_setter_example.cpp
+
+CMakeFiles/hello_world.dir/getter_setter_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_world.dir/getter_setter_example.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Moin\CLionProjects\tutorial\getter_setter_example.cpp > CMakeFiles\hello_world.dir\getter_setter_example.cpp.i
+
+CMakeFiles/hello_world.dir/getter_setter_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_world.dir/getter_setter_example.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\tutorial\getter_setter_example.cpp -o CMakeFiles\hello_world.dir\getter_setter_example.cpp.s
+
 # Object files for target hello_world
 hello_world_OBJECTS = \
 "CMakeFiles/hello_world.dir/hello_world.cpp.obj" \
@@ -304,7 +330,9 @@ hello_world_OBJECTS = \
 "CMakeFiles/hello_world.dir/for_loop_example.cpp.obj" \
 "CMakeFiles/hello_world.dir/two_dim_array.cpp.obj" \
 "CMakeFiles/hello_world.dir/pointers_example.cpp.obj" \
-"CMakeFiles/hello_world.dir/class_example.cpp.obj"
+"CMakeFiles/hello_world.dir/class_example.cpp.obj" \
+"CMakeFiles/hello_world.dir/class_example_2.cpp.obj" \
+"CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj"
 
 # External object files for target hello_world
 hello_world_EXTERNAL_OBJECTS =
@@ -326,11 +354,13 @@ hello_world.exe: CMakeFiles/hello_world.dir/for_loop_example.cpp.obj
 hello_world.exe: CMakeFiles/hello_world.dir/two_dim_array.cpp.obj
 hello_world.exe: CMakeFiles/hello_world.dir/pointers_example.cpp.obj
 hello_world.exe: CMakeFiles/hello_world.dir/class_example.cpp.obj
+hello_world.exe: CMakeFiles/hello_world.dir/class_example_2.cpp.obj
+hello_world.exe: CMakeFiles/hello_world.dir/getter_setter_example.cpp.obj
 hello_world.exe: CMakeFiles/hello_world.dir/build.make
 hello_world.exe: CMakeFiles/hello_world.dir/linklibs.rsp
 hello_world.exe: CMakeFiles/hello_world.dir/objects1.rsp
 hello_world.exe: CMakeFiles/hello_world.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable hello_world.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Moin\CLionProjects\tutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable hello_world.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\hello_world.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
